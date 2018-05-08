@@ -10,36 +10,36 @@ import Example2 from './examples/MultipleElementsWithoutWrapping';
 import './index.css';
 
 const Root = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={'/new-features-of-react-16'}>
     <Switch>
       <Route
         exact
-        path="/"
+        path={`${process.env.PUBLIC_URL}/`}
         component={App}
       />
       <Route
         exact
-        path="/example/1"
+        path={`${process.env.PUBLIC_URL}/example/1`}
         component={Example1}
       />
       <Route
         exact
-        path="/example/2"
+        path={`${process.env.PUBLIC_URL}/example/2`}
         component={Example2}
       />
       <Route
         exact
-        path="/example/3"
+        path={`${process.env.PUBLIC_URL}/example/3`}
         component={Example1}
       />
       <Route
         exact
-        path="/example/4"
+        path={`${process.env.PUBLIC_URL}/example/4`}
         component={Example1}
       />
       <Route
         exact
-        path="/example/5"
+        path={`${process.env.PUBLIC_URL}/example/5`}
         component={Example1}
       />
       <Route component={Error} />
