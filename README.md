@@ -10,7 +10,7 @@ Once you see this repository clones and review the examples you will be more tha
 
 ## Table of Contents
 
-- [Error Handling using Error Boundaries in React 16](#updating-to-new-releases)
+- [Error Handling using Error Boundaries in React 16](src/examples/ErrorHandling)
 - [Render Multiple Elements without a Wrapping Element in a Component in React 16](#sending-feedback)
 - [Render Text Only Components in React 16](#folder-structure)
 - [Render Elements Outside the Current React Tree using Portals in React 16](#available-scripts)

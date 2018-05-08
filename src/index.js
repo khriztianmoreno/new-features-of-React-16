@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import App from './App';
 
 import Example1 from './examples/ErrorHandling';
+import Example2 from './examples/MultipleElementsWithoutWrapping';
 
 import './index.css';
 
@@ -24,7 +25,7 @@ const Root = () => (
       <Route
         exact
         path="/example/2"
-        component={Example1}
+        component={Example2}
       />
       <Route
         exact
